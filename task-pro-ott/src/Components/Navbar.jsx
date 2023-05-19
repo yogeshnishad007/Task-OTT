@@ -11,40 +11,40 @@ import SearchBar from "./SearchBar";
             <div className="navbar-main-div">
 
                 <h2>
-                     <Link className="links" to="/">PRO OTT</Link>
+                     <Link className="logo" to="/">PRO OTT</Link>
                  </h2>  
                 
-                <h2>
+                <h3>
                      <Link className="links" to="/">Home</Link>
-                 </h2>  
+                 </h3>  
 
-                <h2>
+                <h3>
                       <Link className="links" to="/shows">Shows</Link>
-                </h2>
+                </h3>
               
-                <h2>
+                <h3>
                       <Link className="links" to="/movies">Movies</Link>
-                </h2>
+                </h3>
 
-                <h2>
+                <h3>
                       <Link className="links" to="/comedy">Comedy</Link>
-                </h2>
+                </h3>
 
-                <h2>
+                <h3>
                       <Link className="links" to="/news">News</Link>
-                </h2>
+                </h3>
                      
                       <div className="search-bar">
                                 <SearchBar/> 
                       </div>
 
-                <h2>
+                <h3>
                       <Link className="links" to="/subscrib">Subscribe</Link>
-                </h2>
+                </h3>
 
-                   <h2>
+                   <h3>
                       <Link className="links" to="/login">Login</Link>
-                   </h2>
+                   </h3>
 
              </div>
           

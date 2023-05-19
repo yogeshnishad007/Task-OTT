@@ -13,7 +13,7 @@ const SideBar = () => {
                </h2>
 
                <h2>
-                    Geners
+                    Genres
                </h2>
     </div>
   )

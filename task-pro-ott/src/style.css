@@ -1,6 +1,8 @@
 body{
   /* background-color: #8EE4AF; */
-   background-color: #EDF5E1; 
+   /* background-color: #EDF5E1;  */
+   background-color: black;
+  
 }
 
 .navbar-main-div{
@@ -8,25 +10,37 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: #5CDB95;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
  
+  }
+
+  .logo{
+    text-decoration: none;
+    color: #05386B;
   }
 
   
    .links
    {
     text-decoration: none;
-    color: #05386B;
+    color: #EDF5E1;
    }
   
+
+   /* --------------------- Search Bar & Input -------------------------------- */
    .search-bar{
 
-      margin-top: 25px;
+      margin-top: 18px;
    }
 
    .input-saerch-bar{
 
         height: 25px;
         border-radius: 5px;
+        border: none;
 
    }
 
@@ -34,9 +48,12 @@ body{
    .side-bar-con{ 
     width: 200px; 
     height: 100vh;
-    color: #05386B;
+    color:#EDF5E1;
     margin-left: 40px;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
    }
 
 
@@ -50,4 +67,45 @@ body{
       top: 30%;
       left: 20%;
     
+   }
+
+   /*------------------------------ Menu  -----------------------------*/
+
+ 
+   .menu-bar-con{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+     padding-bottom: 50px;
+   }
+
+   .menu-bar-single-con{
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    height: 240px;
+
+   }
+
+   .image{
+
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width:"80%";
+     height:"40%" 
+   }
+
+   .menu-bar-btn{
+
+     border: none;
+     border-radius: 5px;
+     margin-top: 10px;
+     position: relative;
+     left: 30%;
+     font-size: 16px;
+   }
+   .menu-bar-btn:hover{
+
+    background-color: #5CDB95;
+    color: #EDF5E1;
    }

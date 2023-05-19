@@ -1,36 +1,55 @@
-import React, { useState } from 'react';
-import "../style.css"
+import React from 'react'
+import Image1 from "../assest/images1.jpg"
+import Image2 from "../assest/images.jpg"
 
 const MenuBar = () => {
-  const [selectedOption, setSelectedOption] = useState('Recommended');
-
-  const handleOptionClick = (option) => {
-    setSelectedOption(option);
-  };
-
-  const showOptions = [
-    { option: 'Recommended', description: 'Recommended for you' },
-    { option: 'Animated', description: 'Animated Adventures' },
-    { option: 'Popular', description: 'Popular Shows/Drama' },
-    { option: 'New', description: 'New & Upcoming' },
-  ];
 
   return (
-    <div>
-      <ul className="menu-bar">
-        {showOptions.map((show) => (
-          <li
-            key={show.option}
-            className={selectedOption === show.option ? 'active' : ''}
-            onClick={() => handleOptionClick(show.option)}
-          >
-            <img src={`path_to_${show.option}_image`} alt={show.option} />
-            <span>{show.description}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
+    <div className='menu-bar-con'>
 
-export default MenuBar;
+               <div className='menu-bar-single-con'>
+                      <img className='image' src={Image1} alt="recomanded" />
+
+                      <div>
+                            <button  className='menu-bar-btn'>Recommended for you</button>
+                      </div>
+                  
+                       
+               </div>
+
+               <div className='menu-bar-single-con'>
+                      <img className='image' src={Image2} alt="recomanded" />
+
+                      <div>
+                          <button  className='menu-bar-btn'>Animated Adventures</button>
+                      </div>
+                      
+                      
+               </div>
+
+               <div className='menu-bar-single-con'>
+                      <img className='image' src={Image1} alt="recomanded" />
+
+                      <div>
+                            <button  className='menu-bar-btn'>New & Upcoming </button>
+                      </div>
+                  
+                       
+               </div>
+
+
+
+               <div className='menu-bar-single-con'>
+                      <img className='image' src={Image2} alt="recomanded" />
+
+                      <div>
+                          <button className='menu-bar-btn'>Popular Shows/Drama</button>
+                      </div>
+                      
+                      
+               </div>
+    </div>
+  )
+}
+
+export default MenuBar
