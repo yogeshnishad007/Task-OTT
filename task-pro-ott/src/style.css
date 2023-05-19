@@ -59,11 +59,11 @@ body{
 
 
    /* --------------------------- slider-image ---------------------------- */
+
    .slider-image{
   
       width: 1000px;
       height: 350px;
-      background-color: aqua;
       position: absolute;
       top: 30%;
       left: 20%;
