@@ -92,7 +92,8 @@ body{
     margin-right: 20px;
     margin-top: 20px;
     width:"80%";
-     height:"40%" 
+     height:"40%" ;
+     opacity: 1;
    }
 
    .menu-bar-btn{
@@ -103,9 +104,12 @@ body{
      position: relative;
      left: 30%;
      font-size: 16px;
+     opacity: 0;
    }
    .menu-bar-btn:hover{
 
     background-color: #5CDB95;
     color: #EDF5E1;
    }
+
+
