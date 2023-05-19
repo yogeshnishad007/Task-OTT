@@ -3,12 +3,14 @@ import './style.css';
 import LandingPage from './Components/LandingPage';
 
 
+
 function App() {
   return (
     <div>
           
           
           <LandingPage/>
+        
     </div>
   );
 }

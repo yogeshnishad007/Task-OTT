@@ -30,13 +30,24 @@ body{
 
    }
 
-
-   .side-bar-con{
-
-    
+/* ------------------------------------------  Side Bar Design -----------------------------------*/
+   .side-bar-con{ 
     width: 200px; 
     height: 100vh;
     color: #05386B;
     margin-left: 40px;
     margin-top: 100px;
+   }
+
+
+   /* --------------------------- slider-image ---------------------------- */
+   .slider-image{
+  
+      width: 1000px;
+      height: 350px;
+      background-color: aqua;
+      position: absolute;
+      top: 30%;
+      left: 20%;
+    
    }
