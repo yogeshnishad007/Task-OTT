@@ -1,18 +1,7 @@
 
-.navbar-link{
-
-  display: flex;
-  justify-content: space-around;
- 
-}
-
- .links
- {
-  text-decoration: none;
- }
-
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
